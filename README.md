@@ -69,7 +69,9 @@ The system provides real-time status feedback through dedicated light indicators
 • **Network 5 (Pump Automatic Control):** In **Automatic mode (M0.7)**, this network manages the pump autonomously. It sets the pump state based on specific water level thresholds detected by the sensors. The pump is reset if the **High_level_Sensor** is reached, **Stop** is pressed, or the **Valve** is active.
 
 **Timing & Data Conversion**
-![enter image description here](#)
+
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/6c6c35eaa6290c84f616ef227bc2cf2e2158f10e/images/image9.png)
+
 • **Network 6 & 7 (Second and Minute Timers):** These networks utilize **S5 Timers (T0 and T1)** to manage timed operations during **Automatic mode**. They start when the mode is active and the pump is off. **T0** generates the **Second (M1.2)** signal, while **T1** generates the **Minute (M1.3)** signal.
 
 ![enter image description here](#)
