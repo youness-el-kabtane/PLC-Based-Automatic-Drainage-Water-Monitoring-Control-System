@@ -11,7 +11,7 @@
 • **Display system status** through visual **indicators** for water levels and active equipment.
 
 ## System Components / Architecture
-![enter image description here](#)
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/b5ea8c631262b871750e6b592fcff2d1a35cbf38/images/image1.png)
 
 **1. Central Controller**
 
