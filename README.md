@@ -79,7 +79,9 @@ The system provides real-time status feedback through dedicated light indicators
 • **Network 8 & 9 (Get Second/Minute Value):** These networks handle the conversion of user-defined time settings from the HMI. **Network 8** converts seconds (**MD10**) and **Network 9** converts minutes (**MD20**) into milliseconds. They both call **FC40 (TIM_S5TI)** to transform the **IEC Time** format into **S5 Time** values (stored in **MW40** and **MW60**) that the PLC timers can process.
 
 **Status Indicators**
-![enter image description here](#)
+
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/eef0635b2898bc14c73d9efb3301570108b591a8/images/image11.png)
+
 • **Network 10 (Valve_Indicator):** Directly maps the status of the **Valve (Q0.1)** to the physical **Valve_Indicator (Q0.3)**.
 
 • **Network 11 (Pump_Indicator):** Directly maps the status of the **Pump (Q0.0)** to the physical **Pump_Indicator (Q0.2)**.
