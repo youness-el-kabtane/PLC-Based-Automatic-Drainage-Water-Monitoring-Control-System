@@ -74,7 +74,8 @@ The system provides real-time status feedback through dedicated light indicators
 
 • **Network 6 & 7 (Second and Minute Timers):** These networks utilize **S5 Timers (T0 and T1)** to manage timed operations during **Automatic mode**. They start when the mode is active and the pump is off. **T0** generates the **Second (M1.2)** signal, while **T1** generates the **Minute (M1.3)** signal.
 
-![enter image description here](#)
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/518a6a881f12eb786d7878c263001cb2f0422323/images/image10.png)
+
 • **Network 8 & 9 (Get Second/Minute Value):** These networks handle the conversion of user-defined time settings from the HMI. **Network 8** converts seconds (**MD10**) and **Network 9** converts minutes (**MD20**) into milliseconds. They both call **FC40 (TIM_S5TI)** to transform the **IEC Time** format into **S5 Time** values (stored in **MW40** and **MW60**) that the PLC timers can process.
 
 **Status Indicators**
