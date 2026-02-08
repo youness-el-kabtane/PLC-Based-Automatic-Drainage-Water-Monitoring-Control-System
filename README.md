@@ -60,7 +60,8 @@ The system provides real-time status feedback through dedicated light indicators
 
 • **Network 3 (Valve Manual/Automatic Control):** This network controls the **Valve (Q0.1)** using an internal marker (M1.1). In **Manual mode**, the valve opens if the **Valve_Open (M0.4)** command is active and the **Low_level_Sensor (I0.1)** detects water. In **Automatic mode**, the valve opens once both the **Second (M1.2)** and **Minute (M1.3)** timers have elapsed. It is reset (closed) by the **Stop command**, the **Valve_Close** manual command, or if level conditions are no longer met.
 
-![enter image description here](#)
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/37185bc67fed13fe4364fc37968d46dd5439578d/images/image7.png)
+
 • **Network 4 (Pump Manual Control):** In **Manual mode (M0.6)**, this network allows direct operation of the **Pump (Q0.0)** via the **Pump_Control (M0.3)** HMI command. The pump is automatically reset if the **High_level_Sensor (I0.0)** is triggered, the **Stop** command is given, or if the **Valve (Q0.1)** is currently open.
 
 ![enter image description here](#)
