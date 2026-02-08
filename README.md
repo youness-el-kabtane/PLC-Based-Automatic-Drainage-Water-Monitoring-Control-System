@@ -64,7 +64,8 @@ The system provides real-time status feedback through dedicated light indicators
 
 • **Network 4 (Pump Manual Control):** In **Manual mode (M0.6)**, this network allows direct operation of the **Pump (Q0.0)** via the **Pump_Control (M0.3)** HMI command. The pump is automatically reset if the **High_level_Sensor (I0.0)** is triggered, the **Stop** command is given, or if the **Valve (Q0.1)** is currently open.
 
-![enter image description here](#)
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/f8e80a7a73bd7e575ec13f6e7347c9d0d878fdba/images/image8.png)
+
 • **Network 5 (Pump Automatic Control):** In **Automatic mode (M0.7)**, this network manages the pump autonomously. It sets the pump state based on specific water level thresholds detected by the sensors. The pump is reset if the **High_level_Sensor** is reached, **Stop** is pressed, or the **Valve** is active.
 
 **Timing & Data Conversion**
