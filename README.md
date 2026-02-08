@@ -51,7 +51,8 @@ The system provides real-time status feedback through dedicated light indicators
 
 • **Network 1 (Manual Option):** This network establishes the **Manual mode (M0.6)**. It is activated when the **Stop button (M0.0)** is not pressed and the system is not in **Automatic mode (M0.2)**. It latches the manual state when the operator selects it on the HMI.
 
-![enter image description here](#)
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/a7515eafe211b152a1f18f72ab1c96268bc516da/images/image5.png)
+
 • **Network 2 (Automatic Option):** This network establishes the **Automatic mode (M0.7)**. Similar to Network 1, it requires the **Stop button (M0.0)** to be inactive and the system not to be in **Manual mode (M0.1)**. It latches the automatic state upon user selection.
 
 **Valve and Pump Control Logic**
