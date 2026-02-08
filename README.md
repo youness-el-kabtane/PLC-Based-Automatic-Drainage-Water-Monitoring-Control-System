@@ -47,7 +47,8 @@ The system provides real-time status feedback through dedicated light indicators
 ![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/b0a13ab6f3fd4d5163b3e6ac6ed0a0a6b8aca347/images/image3.png)
 
 ## Control Logic
-![enter image description here](#)
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/edc7624e5301062cc05b6eaca76fa0c54bc9b60c/images/image4.png)
+
 • **Network 1 (Manual Option):** This network establishes the **Manual mode (M0.6)**. It is activated when the **Stop button (M0.0)** is not pressed and the system is not in **Automatic mode (M0.2)**. It latches the manual state when the operator selects it on the HMI.
 
 ![enter image description here](#)
