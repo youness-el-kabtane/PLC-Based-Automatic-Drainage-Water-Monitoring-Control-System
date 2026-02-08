@@ -18,7 +18,7 @@
 • **Siemens SIMATIC S7-300 PLC:** The core of the system is a **CPU314C-2 PN/DP**, which handles all processing logic, input monitoring, and output commands.
 
 **2. Human-Machine Interface (HMI)**
-![enter image description here](#)
+![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/02ee5d285b4abc1c5a050930d5cfa2a8c55b71b0/images/image2.png)
 
 • **SIMATIC Multi Panel MP 177 6" Touch:** This device provides the visual interface for the operator. It features a **Dashboard** for real-time monitoring and an **About** screen for project information.
 
