@@ -38,10 +38,10 @@
 
 The system provides real-time status feedback through dedicated light indicators:
 
-• **Pump Indicator**.
-• **Valve Indicator**.
-• **High-Level Indicator**.
-• **Low-Level Indicator**.
+- **Pump Indicator**.
+- **Valve Indicator**.
+- **High-Level Indicator**.
+- **Low-Level Indicator**.
 
 ## Variables Tables
 
