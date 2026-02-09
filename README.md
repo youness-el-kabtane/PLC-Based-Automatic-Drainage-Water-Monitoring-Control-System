@@ -44,9 +44,11 @@ The system provides real-time status feedback through dedicated light indicators
 • **Low-Level Indicator**.
 
 ## Variables Tables
+
 ![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/b0a13ab6f3fd4d5163b3e6ac6ed0a0a6b8aca347/images/image3.png)
 
 ## Control Logic
+
 ![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/edc7624e5301062cc05b6eaca76fa0c54bc9b60c/images/image4.png)
 
 • **Network 1 (Manual Option):** This network establishes the **Manual mode (M0.6)**. It is activated when the **Stop button (M0.0)** is not pressed and the system is not in **Automatic mode (M0.2)**. It latches the manual state when the operator selects it on the HMI.
@@ -56,6 +58,7 @@ The system provides real-time status feedback through dedicated light indicators
 • **Network 2 (Automatic Option):** This network establishes the **Automatic mode (M0.7)**. Similar to Network 1, it requires the **Stop button (M0.0)** to be inactive and the system not to be in **Manual mode (M0.1)**. It latches the automatic state upon user selection.
 
 **Valve and Pump Control Logic**
+
 ![enter image description here](https://github.com/youness-el-kabtane/PLC-Based-Automatic-Drainage-Water-Monitoring-Control-System/blob/f2815b90ec3f275ea3add45e39e6b2e60569d405/images/image6.png)
 
 • **Network 3 (Valve Manual/Automatic Control):** This network controls the **Valve (Q0.1)** using an internal marker (M1.1). In **Manual mode**, the valve opens if the **Valve_Open (M0.4)** command is active and the **Low_level_Sensor (I0.1)** detects water. In **Automatic mode**, the valve opens once both the **Second (M1.2)** and **Minute (M1.3)** timers have elapsed. It is reset (closed) by the **Stop command**, the **Valve_Close** manual command, or if level conditions are no longer met.
